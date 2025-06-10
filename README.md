@@ -15,7 +15,7 @@ A delicate and colorful custom theme for [Quarto Reveal.js](https://quarto.org/d
 To start a new presentation using this theme, run:
 
 ```bash
-quarto use template ariibard/quarto-revealjs-wildflower
+quarto use template ariibard/quarto-revealjs-wildflowers
 ```
 Then render your presentation:
 
