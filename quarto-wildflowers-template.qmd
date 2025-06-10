@@ -1,0 +1,105 @@
+---
+format: 
+  wildflower-revealjs:
+    footer: <https://github.com/ariibard/quarto-revealjs-wildflower>
+    embed-resources: true
+---
+
+## .flores-title1 {.flores-title1 .center}
+
+### Wildflower Theme
+
+## .flores-title2 {.flores-title2 .center}
+
+### A delicate yet bold Quarto theme
+
+## .flores-title3 {.flores-title3 .center}
+
+### Elegant Presentations
+
+## .flores-title4 {.flores-title4 .center}
+
+### Beautifully slides
+
+## .flores-section1 {.flores-section1 .center}
+
+### Code Integration Example
+
+Easily include text alongside executable code.
+
+```{r, echo=TRUE}
+summary(cars)
+```
+
+## .flores-section2 {.flores-section2 .center}
+
+### Interactive Content
+
+Quarto slides can include dynamic plots and interactive visualizations.
+
+Learn more at [Quarto Documentation](https://quarto.org/docs/presentations/).
+
+## .flores-section3 {.flores-section3 .center}
+
+### Rich Formatting
+
+Customize your presentations with ease, keeping clarity and style aligned.
+
+## .flores-slide1 {.flores-slide1}
+
+### Clean Design
+
+Wildflower ensures your content shines with minimal distraction.
+
+## .flores-slide2 {.flores-slide2}
+
+### Easy to Use
+
+Set up and style your slides effortlessly with Quarto.
+
+## .flores-slide3 {.flores-slide3}
+
+### Versatile Layout
+
+Adapt to different presentation needs seamlessly.
+
+## .flores-slide4 {.flores-slide4}
+
+### Elegant Typography
+
+Choose fonts and styles to enhance readability and aesthetics.
+
+## .flores-slide5 {.flores-slide5}
+
+### Customizable Colors
+
+Align the theme with your branding or personal preference easily.
+
+## .flores-slide6 {.flores-slide6}
+
+### Code Highlighting
+
+Showcase code snippets clearly and effectively.
+
+```{python}
+import numpy as np
+np.mean([1, 2, 3, 4, 5])
+```
+
+## .flores-slide7 {.flores-slide7}
+
+### Responsive Design
+
+Your slides look perfect across all devices and screens.
+
+## .flores-slide8 {.flores-slide8}
+
+### Community Support
+
+Join us at the [GitHub repository](https://github.com/ariibard/quarto-revealjs-wildflower) and contribute!
+
+## .flores-slide9 {.flores-slide9}
+
+### Responsive Design
+
+Your slides look perfect across all devices and screens.

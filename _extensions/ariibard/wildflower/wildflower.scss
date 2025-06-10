@@ -1,0 +1,306 @@
+/*-- scss:defaults --*/
+
+$theme-white: #FEFEFE;
+$theme-lila: #433158;
+$theme-violeta: #9e6b94;
+$theme-darkvioleta: #020620;
+$theme-green: #5c7c44;
+$theme-otro: #fa6352;
+$theme-blue: #4d82c9;
+$theme-orange:#d0581a;
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+$body-bg: $theme-white;
+$link-color: $theme-orange;
+$code-color: $theme-violeta;
+$body-color: $theme-darkvioleta;
+$presentation-heading-color: $theme-lila;
+$presentation-heading-font: 'Montserrat Alternates', sans-serif;
+$font-family-sans-serif: 'Titillium Web', sans-serif;
+$code-block-font-size: 0.8em;
+
+/*-- scss:rules --*/
+
+.reveal div.sourceCode {
+  border: unset !important;
+}
+
+div.sourceCode {
+  background-color: unset !important;
+}
+
+.curly {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2em;
+}
+
+.center-v {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+@mixin center-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+@mixin background-full {
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flores-title1 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/title1.png');
+    @include background-full;
+  }
+
+  h2 {
+
+    text-align: center;
+    font-size: 3em;
+  }
+  h3 {
+    color: $theme-otro;
+    text-align: center;
+    font-size: 2em;
+  }
+}
+
+.flores-title2 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/title2.png');
+    @include background-full;
+  }
+  h2 {
+    text-align: center;
+    font-size: 3em;
+  }
+  h3 {
+    color: $theme-violeta;
+    text-align: center;
+    font-size: 2em;
+  }
+}
+
+
+.flores-title3 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/title3.png');
+    @include background-full;
+  }
+  h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: -200px;
+  }
+  h3 {
+    color: $theme-violeta;
+    text-align: center;
+    font-size: 2em;
+  }
+}
+
+.flores-title4 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/title4.png');
+    @include background-full;
+  }
+
+  h2 {
+    color: $theme-blue;
+    text-align: center;
+    font-size: 3em;
+    margin-top: -300px; // ajusta este valor para mover hacia arriba
+  }
+
+  h3 {
+    color: $theme-lila;
+    text-align: center;
+    font-size: 2em;
+    margin-top: -10px;
+  }
+}
+
+
+.flores-section1 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/section1.png');
+    @include background-full;
+  }
+  h2, h3, h4, h5, p, pre {
+    margin-left: 100px;
+    width: 65%;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    color: $theme-violeta;
+    font-size: 1.5em;
+  }
+}
+
+.flores-section2 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/section2.png');
+    @include background-full;
+  }
+  h2, h3, h4, h5, p, pre {
+    margin-left: 100px;
+    width: 65%;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    color: $theme-otro;
+    font-size: 1.5em;
+  }
+}
+
+.flores-section3 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/section3.png');
+    @include background-full;
+  }
+  h2, h3, h4, h5, p, pre {
+    margin-left: 350px;
+    width: 65%;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    color: $theme-violeta;
+    font-size: 1.5em;
+  }
+}
+
+.flores-slide1 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide1.png');
+    @include background-full;
+  }
+  h3 {
+    color: $theme-violeta;
+  }
+}
+
+.flores-slide2 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide2.png');
+    @include background-full;
+  }
+
+    h2 {
+    color: $theme-violeta;
+  }
+
+  h2, h3, h4, h5, p, pre {
+    margin-left: 100px;
+  }
+}
+
+.flores-slide3 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide3.png');
+    @include background-full;
+  }
+
+   padding-top: 90px;
+
+   h2 {
+    color: $theme-violeta;
+  }
+
+
+
+  h2, h3, h4, h5, p, pre {
+    margin-left: 100px;
+  }
+}
+
+.flores-slide4 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide4.png');
+    @include background-full;
+  }
+
+  h2{
+    margin-top: 100px;
+    color: $theme-orange;
+  }
+}
+
+.flores-slide5 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide5.png');
+    @include background-full;
+  }
+   h2 {
+    color: $theme-violeta;
+  }
+  h2, h3, h4, h5, p, pre {
+    margin-left: 50px;
+  }
+}
+
+.flores-slide6 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide6.png');
+    @include background-full;
+  }
+   h2 {
+    color: $theme-orange;
+  }
+  h2, h3, h4, h5, p, pre {
+    margin-left: 50px;
+  }
+}
+
+.flores-slide7 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide7.png');
+    @include background-full;
+  }
+   h2 {
+    color: $theme-orange;
+  }
+  h2 {
+    margin-top: 100px;
+  }
+}
+
+.flores-slide8 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide8.png');
+    @include background-full;
+  }
+   h3 {
+    color: $theme-darkvioleta;
+  }
+  h2{
+    margin-top: 100px;
+    color: $theme-otro;
+  }
+  h2, h3, h4, h5, p, pre {
+    margin-left: 50px;
+  }
+}
+
+.flores-slide9 {
+  &:is(.slide-background) {
+    background-image: url('../../../../../assets/slide9.png');
+    @include background-full;
+  }
+   h2 {
+    color: $theme-violeta;
+  }
+   h2, h3, h4, h5, p, pre {
+    margin-left: 140px;
+  }
+}
